@@ -22,7 +22,7 @@
 
     .container {
       text-align: center;
-      max-width: 900px;
+      max-width: 600px;
       width: 90%;
       padding: 40px;
       background: rgba(0, 0, 0, 0.4);
@@ -32,11 +32,11 @@
 
     h1 { font-size: 2.5rem; margin-bottom: 10px; }
     h2 { font-weight: normal; font-size: 1.2rem; color: #cfd8dc; margin-bottom: 30px; }
-    p { line-height: 1.6; margin-bottom: 20px; }
+    p { line-height: 1.6; margin-bottom: 30px; }
 
     a.button {
       display: inline-block;
-      padding: 12px 25px;
+      padding: 15px 30px;
       color: #fff;
       text-decoration: none;
       font-weight: bold;
@@ -45,6 +45,7 @@
       transition: 0.3s ease;
     }
 
+    /* Botões específicos */
     .btn-cv { background: #1abc9c; }
     .btn-cv:hover { background: #16a085; transform: scale(1.05); }
 
@@ -54,38 +55,16 @@
     .btn-portfolio { background: #00c6ff; color: #000; }
     .btn-portfolio:hover { background: #fff; transform: scale(1.05); }
 
-    .btn-github { background: #4a90e2; color: #fff; }
-    .btn-github:hover { background: #357ABD; transform: scale(1.05); }
-
     .links { margin-top: 30px; }
     .links a { color: #90caf9; text-decoration: none; margin: 0 10px; }
     .links a:hover { text-decoration: underline; }
 
     img { max-width: 100%; border-radius: 10px; margin-bottom: 10px; }
-
     html { scroll-behavior: smooth; }
 
-    .project { 
-      margin-top: 50px; 
-      text-align: left;
-      background: rgba(255,255,255,0.05);
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-      transition: transform 0.3s ease;
-    }
-    .project:hover { transform: scale(1.02); }
-
+    .project { margin-top: 50px; text-align: left; }
     .project h2 { color: #00c6ff; margin-bottom: 15px; }
     .project p { margin-bottom: 10px; }
-
-    .project img { margin-top: 10px; }
-
-    .btn-group { margin-top: 10px; }
-
-    @media screen and (max-width: 768px) {
-      .container { width: 95%; padding: 20px; }
-    }
   </style>
 </head>
 
@@ -95,18 +74,20 @@
   <section>
     <div class="container">
       <h1>Leandro Tavares</h1>
-      <h2>Analista de Suporte Jr | Help Desk | TI Corporativa</h2>
+      <h2>Analista de Suporte Jr | Experiência em TI, Redes e Automação</h2>
 
       <p>
-        Profissional de TI com experiência em suporte, análise de dados e segurança da informação.
+        Profissional de TI com experiência em suporte, análise de dados
+        e automação de processos corporativos.
       </p>
 
-      <a href="#projetos" class="button btn-portfolio">Entrar no Portfólio</a>
+      <!-- Botão Portfólio já corrigido -->
+      <a href="https://tavaresleandro2002-dotcom.github.io/" class="button btn-portfolio" target="_blank">Entrar no Portfólio</a>
 
       <div class="links">
         <a href="https://github.com/tavaresleandro2002-dotcom" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/leandro-tavares-16a1271a5" target="_blank">LinkedIn</a>
-        <a href="mailto:tavaresleandro2002@gmail.com" target="_blank">Email</a>
+        <a href="https://www.linkedin.com/in/leandro-tavaressz1620" target="_blank">LinkedIn</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tavaresleandro2002@gmail.com" target="_blank">Email</a>
         <a href="Leandro_Tavares_CV (2).pdf" class="button btn-cv" target="_blank">Abrir CV</a>
         <a href="https://wa.me/5511976477770" class="button btn-wpp" target="_blank">WhatsApp</a>
       </div>
@@ -120,23 +101,16 @@
       <div class="project">
         <h2>Monitoramento de Rede</h2>
         <p>Projeto de monitoramento de servidores e dispositivos usando Zabbix e Grafana.</p>
-
         <p><strong>Descrição:</strong> Simulação de configuração de monitoramento com alertas e dashboards visuais.</p>
         <p><strong>Ferramentas:</strong> Zabbix, Grafana, Linux</p>
         <p><strong>Objetivo:</strong> Mostrar habilidades em configuração e monitoramento de rede. Redução de 30% do tempo de resposta a incidentes graças aos alertas automáticos.</p>
         <p><strong>Habilidades Aplicadas:</strong> Configuração de triggers, criação de dashboards, monitoramento proativo.</p>
-
-        <div class="btn-group">
-          <a href="https://github.com/tavaresleandro2002-dotcom/monitoramento-rede" target="_blank" class="button btn-github">Ver no GitHub</a>
-        </div>
-
         <img src="monitoramento.png" alt="Dashboard de monitoramento de rede">
       </div>
 
       <!-- Projeto 2 -->
       <div class="project">
         <h2>Gestão e Automação de Usuários</h2>
-
         <img src="AD_PORT.png" alt="Active Directory - organização de usuários e permissões">
         <p>Print 1: Active Directory – organização de usuários e permissões (dados fictícios)</p>
 
@@ -150,12 +124,7 @@
         <p><strong>Ferramentas:</strong> Active Directory, Excel, TOTVS RM</p>
         <p><strong>Objetivo:</strong> Demonstrar organização, automação de processos e monitoramento de usuários e equipamentos corporativos.</p>
         <p><strong>Habilidades Aplicadas:</strong> Criação e gerenciamento de usuários e grupos, controle de inventário via planilhas, análise de relatórios, integração de dados entre sistemas.</p>
-
-        <div class="btn-group">
-          <a href="https://github.com/tavaresleandro2002-dotcom/gestao-usuarios" target="_blank" class="button btn-github">Ver no GitHub</a>
-        </div>
       </div>
-
     </div>
   </section>
 
